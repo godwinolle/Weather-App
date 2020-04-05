@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000;
+}
+
+.container{
+    font-family: 'Baloo Thambi 2', cursive;
+    max-width: 300px;
+    margin: 0 auto;
+    border-radius: 20px;
+    background-color: #fff;
+    margin-top: 30px;
+    height: 450px;
+}
+
+.content{
+    background-color: #edf0f5;
+    padding-top: 10px;
+    margin-bottom: 40px;
+}
+.title{
+    font-size: 30px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+form{
+    text-align: center; 
+}
+form input{
+    font-family: 'Baloo Thambi 2', cursive;
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    font-size: 20px;
+    text-align: center;
+    height: 30px;
+    width: 150px;
+}
+
+.icon{
+    text-align: center;
+}
+
+.current{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.current p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.currentTemp{
+    font-size: 45px;
+}
+
+.located{
+    text-align: center;
+    font-size: 23px;
+}
+

@@ -6,7 +6,7 @@
     <script src="https://kit.fontawesome.com/87e6b03e72.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Baloo+Thambi+2&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Weather App</title>
 </head>
 <body>
     <div class="container">
@@ -16,7 +16,7 @@
         <div class="content">
             <form>
                 <i class="fas fa-map-marker-alt"></i>
-                <input type="text" name="zip" placeholder="Enter ZIP CODE">
+                <input class="zipInput" type="text" name="zip" placeholder="Enter ZIP CODE">
             </form>
             <div class="icon">
                 <img id="weatherIcon" src="icons/01d.png">
@@ -24,6 +24,10 @@
             <div class="current">
                 <p class="currentTemp">--</p>
                 <p class="fahrenheit">°F</p>
+            </div>
+            <div class="highLow">
+                <p class="highTemp">--</p>
+                <p class="lowTemp">--</p>
             </div>
             <div class="location">
                 <p class="located">--</p>

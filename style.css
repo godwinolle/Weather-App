@@ -53,12 +53,17 @@ form input{
 
 .current p{
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 5px;
     
 }
 
 .currentTemp{
     font-size: 45px;
+}
+
+.highLow{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .located{

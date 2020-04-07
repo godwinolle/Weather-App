@@ -16,20 +16,23 @@ const weather = async (zip) =>{
     const lowWeather = await imperialTemp(low);
     const city = await data.name;
     const icon = await data.weather[0].icon;
+    const description = await data.weather[0].description;
     console.log(city);
     console.log(currentWeather);
 
     const currentTempHTML = document.querySelector('.currentTemp');
     const weatherIcon = document.getElementById('weatherIcon');
-    const location = document.querySelector('.located');
+    const descriptionHTML = document.getElementById('description');
     const highTempHTML = document.querySelector('.highTemp');
     const lowTempHTML = document.querySelector('.lowTemp');
+    const location = document.querySelector('.located');
 
     currentTempHTML.innerHTML = `${currentWeather}`;
     weatherIcon.src = `icons/${icon}.png`;
-    location.innerHTML = `${city}, US`;
+    descriptionHTML.innerHTML = `${description}`;
     highTempHTML.innerHTML = `${highWeather}`;
     lowTempHTML.innerHTML = `${lowWeather}`;
+    location.innerHTML = `${city}, US`;
 
 };
 

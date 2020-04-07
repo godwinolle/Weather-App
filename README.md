@@ -1,4 +1,4 @@
 # Weather App
-### [godwincodes.co/Form-Validation](http://godwincodes.co/Form-Validation/)
+### [Check out the Weather App here](http://godwincodes.co/Weather-App/)
 
 
